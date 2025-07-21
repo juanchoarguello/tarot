@@ -8,7 +8,7 @@ interface Tarotista {
   id: number
   nombre: string
   telefono: string
-  precio_minuto: number
+  precio_15min: number
 }
 
 interface PaymentModalProps {
@@ -54,7 +54,7 @@ export function PaymentModal({ isOpen, onClose, tarotista }: PaymentModalProps) 
 
         <div className="space-y-4">
           <div className="text-center mb-6">
-            <p className="text-lg mb-2">Tarifa: ${tarotista.precio_minuto} US$/minuto</p>
+            <p className="text-lg mb-2">Tarifa: ${tarotista.precio_15min} USD/15min</p>
             <p className="text-sm text-gray-300">Selecciona tu método de pago preferido</p>
           </div>
 
