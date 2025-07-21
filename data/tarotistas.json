@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "nombre": "Cristina",
+    "especialidad": "Vidente y Tarotista Profesional",
+    "experiencia": "Más de 15 años de experiencia en el Arte de la Videncia",
+    "foto": "/images/cristina.png",
+    "telefono": "+57 300 2392699",
+    "especialidades": ["Especialista en Amor y Pareja", "Tarot del Amor", "Rituales y Limpias"],
+    "disponible": true,
+    "calificacion": 5,
+    "precio_minuto": 2500
+  },
+  {
+    "id": 2,
+    "nombre": "María Elena",
+    "especialidad": "Tarotista y Numeróloga",
+    "experiencia": "12 años leyendo el tarot y los números",
+    "foto": "/images/maria-elena.png",
+    "telefono": "+57 301 5678901",
+    "especialidades": ["Numerología Avanzada", "Tarot Egipcio", "Predicciones Futuro"],
+    "disponible": true,
+    "calificacion": 5,
+    "precio_minuto": 2200
+  },
+  {
+    "id": 3,
+    "nombre": "Carmen",
+    "especialidad": "Vidente Natural",
+    "experiencia": "20 años de don natural heredado",
+    "foto": "/images/carmen.png",
+    "telefono": "+57 302 9876543",
+    "especialidades": ["Videncia Natural", "Cartas Españolas", "Limpias Energéticas"],
+    "disponible": false,
+    "calificacion": 5,
+    "precio_minuto": 2800
+  }
+]
