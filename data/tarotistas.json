@@ -9,7 +9,7 @@
     "especialidades": ["Especialista en Amor y Pareja", "Tarot del Amor", "Rituales y Limpias"],
     "disponible": true,
     "calificacion": 5,
-    "precio_minuto": 2500
+    "precio_15min": 5
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "especialidades": ["Numerología Avanzada", "Tarot Egipcio", "Predicciones Futuro"],
     "disponible": true,
     "calificacion": 5,
-    "precio_minuto": 2200
+    "precio_15min": 5
   },
   {
     "id": 3,
@@ -33,6 +33,6 @@
     "especialidades": ["Videncia Natural", "Cartas Españolas", "Limpias Energéticas"],
     "disponible": false,
     "calificacion": 5,
-    "precio_minuto": 2800
+    "precio_15min": 5
   }
 ]

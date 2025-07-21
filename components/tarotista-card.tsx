@@ -18,7 +18,7 @@ interface Tarotista {
   especialidades: string[]
   disponible: boolean
   calificacion: number
-  precio_minuto: number
+  precio_15min: number
 }
 
 interface TarotistaCardProps {
@@ -70,7 +70,7 @@ export function TarotistaCard({ tarotista }: TarotistaCardProps) {
           </div>
 
           <div className="mb-4 p-2 bg-[#5a4a18] rounded-lg">
-            <p className="text-[#a4a49f] font-bold">${tarotista.precio_minuto} COP/min</p>
+            <p className="text-[#a4a49f] font-bold">${tarotista.precio_15min} USD/15 min</p>
           </div>
 
           <Button
