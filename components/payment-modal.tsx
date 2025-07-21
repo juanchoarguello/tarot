@@ -1,6 +1,4 @@
 "use client"
-
-import { useState } from "react"
 import { Phone, CreditCard, DollarSign } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
@@ -20,11 +18,7 @@ interface PaymentModalProps {
 }
 
 export function PaymentModal({ isOpen, onClose, tarotista }: PaymentModalProps) {
-  const [selectedPayment, setSelectedPayment] = useState<string | null>(null)
-
   const handlePaymentSelect = (method: string) => {
-    setSelectedPayment(method)
-
     switch (method) {
       case "llamada":
         // Redirigir inmediatamente a la llamada

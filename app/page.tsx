@@ -128,7 +128,7 @@ export default function TarotPage() {
                   ))}
                 </div>
                 <p className="text-sm italic">
-                  "Cristina me ayudó a encontrar el amor de mi vida. Sus predicciones fueron exactas."
+                  {"Cristina me ayudó a encontrar el amor de mi vida. Sus predicciones fueron exactas."}
                 </p>
                 <p className="text-xs text-gray-300 mt-2">- María, 32 años</p>
               </div>
@@ -147,7 +147,7 @@ export default function TarotPage() {
                   ))}
                 </div>
                 <p className="text-sm italic">
-                  "Increíble precisión en sus lecturas. Me ayudó en decisiones importantes."
+                  {"Increíble precisión en sus lecturas. Me ayudó en decisiones importantes."}
                 </p>
                 <p className="text-xs text-gray-300 mt-2">- Carlos, 28 años</p>
               </div>
@@ -165,7 +165,7 @@ export default function TarotPage() {
                     <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
                   ))}
                 </div>
-                <p className="text-sm italic">"Profesional y empática. Sus consejos cambiaron mi vida para mejor."</p>
+                <p className="text-sm italic">{"Profesional y empática. Sus consejos cambiaron mi vida para mejor."}</p>
                 <p className="text-xs text-gray-300 mt-2">- Ana, 25 años</p>
               </div>
             </div>
